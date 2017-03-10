@@ -26,7 +26,6 @@ gulp.task('sass', function() {
             cascade: false
         }))
         .pipe(gulp.dest('app/css'))
-        .pipe(gulp.dest('dist/css'))
 
         .pipe(browserSync.reload({
             stream: true

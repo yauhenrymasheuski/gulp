@@ -14,7 +14,10 @@ gulp.task('build', function() {
         .pipe(sass())
         .pipe(gulp.dest('dist/css'));
 
-    return merge(html, styles);
+    var scripts = gulp.src('app/js/*.js')
+        .pipe(gulp.dest('dist/js'));
+
+    return merge(html, styles, scripts);
 });
 
 

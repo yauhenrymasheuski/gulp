@@ -1,22 +1,59 @@
 @import "variables";
+@import "mixins";
+
+/*
+
+Template: Vegan Cafe - Vegan cafe HTML5 Template
+Author: lusterka.by
+Version: 1.0
+Design and Developed by: lusterka.by
+
+NOTE: This is main stylesheet of template, This file contains the styling for the actual Template.
+
+*/
+
+/*================================================
+[  Table of contents  ]
+================================================
+
+:: General
+:: Header
+:: Feature-box
+:: Service
+:: Counter
+:: Gallery
+:: Video
+:: Content middle
+:: About
+:: Team
+:: Book menu
+:: Our menu
+:: Owl carousel
+:: Pricing Grid
+:: Testimonials
+:: Pleasure
+:: Inner intro
+:: Custom content
+:: Skills
+:: Accordion
+:: Reservation
+:: Contact
+:: Error page
+:: Coming soon
+:: Pagination
+:: Upcoming-event
+:: Newsletter
+:: Blog page
+:: Alerts and callouts
+:: Footer
+
+======================================
+[ End table content ]
+======================================*/
 
 
-.wow {
-  overflow: hidden;
-  visibility: hidden;
-}
+@import "general";
+@import "header";
+@import "slider";
+@import "about";
 
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-
-body {
-  h1 {
-    font-size: $font-size-small;
-  }
-}

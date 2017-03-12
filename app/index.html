@@ -7,14 +7,18 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
     <!--animate css3-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!--normalize css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
     <!--bootstrap css-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!--custom styles-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--main style-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,76 +27,89 @@
 
 <body data-spy="scroll" data-target="#menu">
 
-<div class="animated">
-    <header class="header wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-        <div class="container container--header">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand header__logo" href="#">
+<!--=================================
+header  -->
 
-                        </a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="menu">
-                        <ul class="nav navbar-nav" role="tablist">
-                            <li><a href="#about">About</a></li>
-                        </ul>
-                    </div>
+<header class="header">
+    <div class="container container--header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand header__logo" href="#">
+
+                    </a>
                 </div>
-            </nav>
-        </div>
-    </header>
-
-    <section class="container container--about wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" id="about">
-        <div class="row">
-            <div class="text-center col-md-offset-2 col-md-8 col-xs-12">
-                <h1 class="container__title">The Best Way to Work Together</h1>
-                <h3 class="container__subtitle">We design and develop software for funded startups and established companies. Here are just some examples of our work</h3>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container container--footer">
-            <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                <div class="col-lg-4 col-md-12 col-xs-12">
-                    <div class="col-xs-3 container--footer__logo">
-                        <img src="assets/images/logo-footer.png" alt="logo" srcset="/assets/images/logo-footer@2x.png 2x" />
-                    </div>
-                    <div class="col-xs-9 container--footer__logo-description">
-                        <p>Huge modern UI Kit containing 130+
-                            terrific components in 11 popular
-                            categories. Each component is fully.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-8 col-xs-12">
-                    <ul class="footer-menu">
-                        <li><a href="">Support</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Press</a></li>
-                        <li><a href="">FAQ</a></li>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav" role="tablist">
+                        <li><a href="#about">About</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-2 col-xs-12"></div>
             </div>
+        </nav>
+    </div>
+</header>
+
+<!--=================================
+header  -->
+
+<!--=================================
+about  -->
+
+<section class="container container--about" id="about">
+    <div class="row">
+        <div class="text-center col-md-offset-2 col-md-8 col-xs-12">
+            <h1 class="container__title">The Best Way to Work Together</h1>
+            <h3 class="container__subtitle">We design and develop software for funded startups and established companies. Here are just some examples of our work</h3>
         </div>
-    </footer>
-</div>
+    </div>
+</section>
+
+<!--=================================
+about  -->
+
+<!--=================================
+footer  -->
+
+<footer class="footer">
+    <div class="container container--footer">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-xs-12">
+                <div class="col-xs-3 container--footer__logo">
+                    <!--<img src="assets/images/logo-footer.png" alt="logo" srcset="/assets/images/logo-footer@2x.png 2x" />-->
+                </div>
+                <div class="col-xs-9 container--footer__logo-description">
+                    <p>Huge modern UI Kit containing 130+
+                        terrific components in 11 popular
+                        categories. Each component is fully.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8 col-xs-12">
+                <ul class="footer-menu">
+                    <li><a href="">Support</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-xs-12"></div>
+        </div>
+    </div>
+</footer>
+<!--=================================
+footer -->
 
 <!--jquery-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!--bootstrap js-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!--wowjs js-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!--custom js-->
 <script src="js/main.js"></script>
 </body>

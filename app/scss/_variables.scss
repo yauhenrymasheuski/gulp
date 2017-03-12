@@ -1,0 +1,72 @@
+//Colors
+
+$white:                    #fff;
+$black:                    #000;
+$iron:                     #f2f2f2;
+$snow:                     #f9f9f9;
+$solitude:                 #E1E8EE;
+$shuttleGrey:              #5E6977;
+$nero:                     #202020;
+$spindle:                  #bfc7ce;
+$ShuttleGreyDark:          #545e6b;
+$baliHai:                  #86939e;
+$arsenic:                  #43484d;
+$curiousBlue:              #358ED7;
+$summerSky:                #509fd1;
+$mantis:                   #7dc855;
+$yellowGreen:              #7FCC2B;
+
+
+//Font import
+
+$font-family-light: Roboto-Light, sans-serif;
+$font-family-regular: Roboto-Regular, sans-serif;
+$font-family-medium: Roboto-Medium, sans-serif;
+$font-family-bold: Roboto-Bold, sans-serif;
+
+
+//Font-size
+
+$font-size-small:          12px;
+$font-size-regular:        16px;
+$font-size-medium:         18px;
+$font-size-large:          22px;
+$font-size-x-large:        32px;
+$font-size-xx-large:       48px;
+$font-size-xxx-large:      60px;
+
+
+//Media Queries
+
+$mobile-small:	           240;
+$mobile-large:	           320;
+$tablet-small:	           480;
+$tablet-large:	           768;
+$screen-small:	           1024;
+$screen-large:	           1280;
+
+
+//menu font-size
+
+$menu-text-color:          $iron;
+$menu-font-size:           $font-size-medium;
+
+
+//text styles
+
+$text-color:               $arsenic;
+
+
+
+$main-theme-color:         $yellowGreen;
+$text-color:               $nero;
+
+$link-text-color:          $white;
+$link-text-hover-color:    $white;
+
+
+
+$button-bg:                 $yellowGreen;
+$button-bg-hover:           $yellowGreen;
+$button-text-color:         $white;
+$button-text-hover-color:   $white;

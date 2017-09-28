@@ -1,7 +1,13 @@
+// Variables
+
 //Colors
 
+$default-color: 					 #000000;
+$accent-color:						 #7fcc2b;
+$color-overlay:						 #0f0f0f;
 $white:                    #fff;
 $black:                    #000;
+$grey:                     #333;
 $iron:                     #f2f2f2;
 $snow:                     #f9f9f9;
 $solitude:                 #E1E8EE;
@@ -17,8 +23,10 @@ $mantis:                   #7dc855;
 $yellowGreen:              #7FCC2B;
 
 
-//Font import
 
+//Font import
+$default-font: Raleway, Helvetica Neue, Helvetica, Roboto,Arial, sans-serif;
+$add-font: ScriptMtBold, Helvetica Neue, Helvetica, Roboto,Arial, sans-serif;
 $font-family-light: Roboto-Light, sans-serif;
 $font-family-regular: Roboto-Regular, sans-serif;
 $font-family-medium: Roboto-Medium, sans-serif;
@@ -56,6 +64,12 @@ $menu-font-size:           $font-size-medium;
 
 $text-color:               $arsenic;
 
+
+//footer colors
+
+$footer-text-color:        $white;
+$footer-link-color:        $white;
+$footer-title-font-size:   $font-size-medium;
 
 
 $main-theme-color:         $yellowGreen;
